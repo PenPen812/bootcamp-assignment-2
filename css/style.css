@@ -1,0 +1,244 @@
+/*Univeral*/
+* {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+body {
+    /* position: relative; */
+    font-family: "Helvetica", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+}
+
+header {
+    height: 3rem;
+    width: 5.2cm;
+    text-align: left;
+    border-left: 45px ;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    font-size: 45px;
+
+}
+
+.row {
+    display:flex;
+    /* position: absolute; */
+    align-content:space-around ;
+    flex-direction: row;
+    align-items: flex-start;
+
+    
+
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    margin: 20px 20px 20px 0px;
+
+}
+
+a {
+    text-decoration-line:underline;
+
+}
+
+h1 {
+    
+    width: 130px;
+    /* position: relative; */
+
+}
+h1,h2 {
+    border: 5px solid purple;
+    text-align: left;
+    }
+
+
+.nav-menu ul {
+    color: navy;
+    background-color: rgb(102, 222, 238);
+    font-size: 25px;
+    border: 0px;
+    text-align: right;
+    padding-top: 2px;
+    word-spacing: 1.5px;
+    line-height: 1.2cm;
+    text-underline-offset: 0.5rem;
+    
+    
+    
+}
+
+
+#top img {
+    background-image: url("gradienta.jpg");
+    /* position: relative; */
+    width: 100%;
+    height: 200px;
+    
+  
+}
+
+.subtitle {
+    font-style: italic;
+    position: absolute;
+    top: 220px;
+    right: 50px;
+    font-size: 50px;
+    color: rgb(155, 220, 224);
+    text-align: right;
+
+ 
+ 
+}
+
+.side { 
+    height: 200px;
+    width: 100%;
+    font-size: 50px;
+    /* text-align: right; */
+    /* flex-wrap: wrap; */
+    flex: 20%;
+    background-color: white;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    /* background-size: cover; */
+    /* flex-wrap:wrap;   */
+  
+
+
+}
+
+.main {
+    display:flexbox ;
+    flex: 70%;
+    background-color: white;
+    padding: 1px;
+    
+
+
+}
+
+.sidebar{
+
+    border: 5px solid orange;
+    height: 100%;
+    border-right: 3px solid darkblue;
+    position:sticky;    
+    margin-right: 50px;
+
+}
+
+.about {
+
+    word-spacing: 2px;
+    line-height: 0.8cm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    
+
+}
+.work {
+  
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: white; 
+    background-size: cover;
+    background-position: center;
+    line-height: 1.5;
+    
+   
+
+}
+
+.flex-container-larger :before,:after {
+    display: flex;
+    /* grid-template-columns : repeat(5, 1fr) ;
+    grid-template-rows : repeat(3, 1fr) ; */
+    
+    box-sizing: border-box;
+    /* width: 85vw; */
+    margin: 1rem auto;
+}
+.flex-container-medium {
+    border: 5px solid red;
+    /* display:flex; */
+    /* display:grid; */
+    /* grid-template-columns: 2fr 2fr ; */
+    /* grid-template-rows: 2fr 2fr; */
+    /* grid-column-gap: 2em; */
+    /* grid-auto-rows: 100px; */
+    /* grid-gap: 2em; */
+    /* position: absolute; */
+    
+    
+}
+
+.box.one img { 
+   
+    height: 250px;
+    display: block;
+    flex-wrap: wrap;
+    border: 10px solid rgb(183, 243, 243);
+    flex-wrap:wrap;  
+    justify-items:flex-end;
+}
+
+.box img {
+    height: 100px;
+    display: block;
+    flex-wrap: wrap;
+    border: 10px solid rgb(183, 243, 243);
+    flex-wrap:wrap;  
+    
+}
+
+
+
+.contact {
+    color: grey;
+    background-size:cover;
+    word-spacing:3.5cm;
+    text-align: right;
+    font-size: 25px;
+    text-underline-offset: 0.5rem;
+    line-height: 1.2cm;
+    margin-right: 1.5rem;
+
+}
+
+
+footer {
+     
+    width: 100%;
+    height: 35px;
+    color: rgb(138, 129, 151) ;
+    background-color:rgb(253, 220, 175);
+    text-align: center;
+    bottom:0px;
+    padding: 5px;
+    border-bottom: 2px solid lightsalmon;
+    border-top:2px solid lightsalmon;
+    
+}
+
+    @media screen and (max-width: 700px) {
+        .row {
+            flex-direction: column;
+        }
+    }
